@@ -1,0 +1,10 @@
+name: vault_installation
+title: Checking Vault installation
+maintainer: Martin Hristov
+summary: Checks if Vault is installed
+copyright: None
+copyright_email: martinkrhristov@gmail.com
+license: MIT
+version: 1.0.0
+supports:
+  - os-family: linux

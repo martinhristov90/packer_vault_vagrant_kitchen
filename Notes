@@ -1,0 +1,9 @@
+# To upload to vagrant cloud 
+,
+      {
+        "type": "vagrant-cloud",
+        "box_tag": "YOUR_VAGRANTCLOUD_NAME/vault",
+        "access_token": "{{user `cloud_token`}}",
+        "version": "{{user `version`}}",
+        "version_description": "{{user `version_description`}}"
+      }

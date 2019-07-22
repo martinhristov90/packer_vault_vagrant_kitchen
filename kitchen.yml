@@ -1,0 +1,17 @@
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+platforms:
+  - name: ubuntu
+    driver:
+      box: martinhristov90/vault
+      provider: virtualbox
+ 
+verifier:
+  name: inspec
+  inspec_tests:
+        - test/integration/vault
+suites:
+  - name: vault_installation

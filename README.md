@@ -10,7 +10,7 @@
 - Execute `packer build template.json` to start the building process.
 - Test the box with KitchenCI if Vault is installed correctly, using the instructions below : 
 
-    #### How to setup KitchenCI (MacOS Mojave).
+#### How to setup KitchenCI (MacOS Mojave).
     
     - For using [KitchenCI](https://kitchen.ci/), ruby environment needs to be set up first.
     - Run `brew install ruby`
